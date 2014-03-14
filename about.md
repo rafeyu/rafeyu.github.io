@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /about/
-title: About the Theme
-tags: [Jekyll, theme, modern, minimal, responsive]
+title: About Me
+tags: [tentang]
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
@@ -10,24 +10,20 @@ image:
 share: true
 ---
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+Hai, Ramdziana di sini. Selamat datang di [blog pribadi saya]({{site.url}}). Saya saat ini adalah seorangan mahasiswa [STMIK Amikom Yogyakarta](http://amikom.ac.id) yang sedang menempuh semester *agak* akhir. 
 
-## What HPSTR brings to the table:
+Mari kita mundur sejenak ..
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+Pada tanggal 18 Februari 1993 atau sekitar 25 Sya'ban 1414H telah dilahirkan seorang bayi di daerah Bantul Yogyakarta dari seorang Ibu yang sangat hebat dan tentunya didukung sepenuhnya oleh Ayah, ya benar bayi ini adalah saya. Cukup menyenangkan menjadi anak kedua, saya tidak perlu repot untuk memilih tempat sekolah karena saya tinggal *ngikut* saja :3.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+Sekitar tahun 1999-2000 saya masuk **SD (Sekolah Dasar) Negeri Ringinsari**, SD ini terletak di Ringinsari, Maguwoharjo, Depok Sleman Yogyakarta. Tepat 6 tahun kemudian saya lulus dengan nilai cukup memuaskan dan kemudian memilih sekolah yang sama (lagi seperti *mas* saya), **SMPN 4 Depok**. *Alhamdulillah*, tepat 3 tahun saya kemudian lulus dan akhirnya memilih sekolah SMA yang berbeda dengan SMA *mas* saya yaitu **SMAN 1 Depok**. Sekedar informasi, SMPN 4 Depok dan SMAN 1 Depok hanya dibatasi sebuah pagar di halaman belakang. Tiga tahun kemudian saya lulus dan memutuskan untuk mendaftarkan diri lagi di kampus (tempat *mas* saya kuliah) STMIK Amikom Yogyakarta, mengambil jurusan Sistem Informasi.
 
-[^1]: Example: *domain.com/category-name/post-title*
+Sejak masih muda, saya cukup menyadari *passion* saya memang ada di dunia *Computing*. Ketika itu saat *mas* saya memiliki komputer pertama kali, dan saya mulai memakai komputer tersebut kelas 4-5 SD. Sekarang ketika saya mengingat momen-momen tersebut, saya beranggapan saya keren! Di saat teman-teman bermain game di PlayStation, saya justru bermain game di komputer: Couter Strike. Sekitar kelas 3 SMP, saya iseng-iseng mengedit sebuah file HTML yang saya jadikan sebuah halaman **Standar Kompetensi Lulusan** dengan tampilan tabel-tabel dan kemudian mencoba *coding* PHP. Beranjak SMA, saya mulai sibuk mencoba-coba bahasa pemrograman bahkan saya *bela-belain* beli bukunya, saya ingat saat itu saya membeli buku bahasa pemrograman Delphi dan Java (walaupun saya kecolongan, CD bonus buku Java suda tidak ada!). Selain mencoba *coding*, saya juga semakin menekuni dunia *blogging*, [www.rafeyu.info](http://www.rafeyu.info).
+
+Kuliah semester awal, saya masih suka mencoba-coba bahasa pemrograman salah satunya Ruby, dan terimakasih pada Yukihiro Matsumoto bahasa ini masih saya gunakan sekarang. Bahasa PHP juga masih saya gunakan untuk mengembangkan aplikasi berbasis web.
+
+Di blog ini saya akan berbagi tentang tulisan bertema apapun, yah .. mungkin mengenai pengalaman, opini, tutorial *coding*, dan sebagainya yang tidak mungkin saya tulis di blog lain seperti blog [www.rafeyu.info](http://www.rafeyu.info) yang notabene adalah blog mengenai teknologi secara umum.
+
+Sekali lagi terimakasih atas kunjungannya!
+
+Dituliskan dengan <3 di Sleman.
