@@ -12,7 +12,7 @@ owner:
   email:          ramdzian@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        http://twitter.com/aldzal
-  facebook:       http://facebook.com/ramdziana
+  facebook:       
   github:         http://github.com/rafeyu
   stackexchange:  http://stackexchange.com/users/3527285/rafeyu
   linkedin:       
@@ -20,7 +20,7 @@ owner:
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   https://plus.google.com/+RamdzianaFY
+  google_plus:   
 
 # Background image to be tiled on all pages
 background: 
