@@ -4,7 +4,7 @@ title: "Akhirnya Pilih Jekyll"
 modified: 2014-03-15 12:28:53 +0700
 tags: [blogging,jekyll]
 image:
-  feature: jekyll-site.png
+  feature: abstract-7.jpg
   credit: 
   creditlink: 
 comments: true
@@ -19,6 +19,7 @@ Setelah cukup banyak *googling*, saya mendapatkan kabar tentang platform blog [R
 Kekecewaan terhadap Roon membuat saya bermain dengan Google lagi. Saya sempat *mampir* ke [Scriptogr.am](http://scriptogr.am), [Ghost](http://ghost.org), dan [Postagon](http://postagon.com). Karena saya adalah pengguna Github dan pecinta Ruby, saya pun mampir ke [Jekyll](http://jekyllrb.com) (walaupun saya mampir karena tidak sengaja :v).
 
 Keunggulan Jekyll menurut saya:
+
 * Berbasis Ruby
 * Non-database, sehingga sangat ringan
 * Bisa dikustom sedemikian rupa
