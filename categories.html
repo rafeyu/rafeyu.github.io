@@ -5,6 +5,7 @@ title: Categories Archive
 description: "An archive of posts sorted by 'category'."
 category: category
 ---
+
 <ul class="entry-meta inline-list">
 {% assign catagories_list = site.categories %}  
   {% if categories_list.first[0] == null %}
@@ -35,8 +36,4 @@ category: category
 		{% assign group = nil %}
 		</ul>
 	</article>
-{% endfor %}
-
-{% for post in site.categories['blogging'] %}
-    <li>{{ post.title }}</li>
 {% endfor %}
