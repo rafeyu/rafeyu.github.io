@@ -1,5 +1,6 @@
 title:            Ramdziana.My.Id
-description:      Blog Ramdziana
+description:      "Personal blog Ramdziana yang membahas tentang berbagai tulisan baik opini, tutorial, teknologi, dan pengalaman"
+tags:             [ramdziana,blog,personal]
 disqus_shortname: ramdzianafy
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://ramdziana.my.id
