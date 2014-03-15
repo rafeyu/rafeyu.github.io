@@ -2,6 +2,7 @@
 layout: post
 title: "Akhirnya Pilih Jekyll"
 modified: 2014-03-15 12:28:53 +0700
+description: "Jekyll sebagai platform blogging"
 tags: [blogging,jekyll]
 image:
   feature: abstract-7.jpg
