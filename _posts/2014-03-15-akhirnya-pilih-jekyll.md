@@ -4,7 +4,6 @@ title: "Akhirnya Pilih Jekyll"
 modified: 2014-03-15 12:28:53 +0700
 description: "Jekyll sebagai platform blogging"
 tags: [blogging,jekyll]
-category: blogging
 image:
   feature: abstract-7.jpg
   credit: 
