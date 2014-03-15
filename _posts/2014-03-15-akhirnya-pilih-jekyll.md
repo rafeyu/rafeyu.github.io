@@ -4,6 +4,7 @@ title: "Akhirnya Pilih Jekyll"
 modified: 2014-03-15 12:28:53 +0700
 description: "Jekyll sebagai platform blogging"
 tags: [blogging,jekyll]
+category: blogging
 image:
   feature: abstract-7.jpg
   credit: 
@@ -11,7 +12,7 @@ image:
 comments: true
 share: true
 ---
-Akhirnya setelah begitu lama mencari *platform ngeblog* untuk blog personal, akhirnya pilihan saya jatuh di [Jekyll](http://jekyllrb.com). Ya .. beberapa platform sudah saya coba seperti Blogspot, Wordpress, dan Roon. [Roon](http://ramdziana.roon.io) merupakan platform yang sempat saya pakai, namun tidak begitu lama. Karena Roon, saya mengenal Markdown sebagai alat **ngeblog*, terimakasih Roon :3
+Akhirnya setelah begitu lama mencari *platform ngeblog* untuk blog personal, akhirnya pilihan saya jatuh di [Jekyll](http://jekyllrb.com). Ya .. beberapa platform sudah saya coba seperti Blogspot, Wordpress, dan Roon. [Roon](http://ramdziana.roon.io) merupakan platform yang sempat saya pakai, namun tidak begitu lama. Karena Roon, saya mengenal Markdown sebagai alat *ngeblog*, terimakasih Roon :3
 
 Bahkan gara-gara "gila" markdown, saya sempat mencari tool markdown untuk Blogspot dan Wordpress. Namun, sama saja, dengan memakai markdown di Blogspot, saya jadi bekerja 2 kali: ketik file markdown kemudian di *parse* manual ke HTML. Di Wordpress sebetulnya ada plugin markdown, namun gara-gara pikiran idealis saya, sata tidak memakai Wordpress. Wordpress terlalu besar dan berat untuk blog pribadi yang ingin saya buat.
 
