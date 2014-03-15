@@ -1,0 +1,10 @@
+---
+layout: post-index
+permalink: /categories/
+title: Categories Archive
+description: "An archive of posts sorted by 'category'."
+category: tags
+---
+{% for post in site.categories['blogging'] %}
+    <li>{{ post.title }}</li>
+{% endfor %}
