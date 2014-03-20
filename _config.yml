@@ -47,7 +47,7 @@ pygments:    true
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:year/:month/:title/
+permalink:   /:year/:month/:title/
 
 # Amount of post to show on home page
 paginate: 5
