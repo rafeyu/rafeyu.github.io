@@ -27,6 +27,7 @@ task :new_post, :title do |t, args|
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
+  cat = get_stdin("Enter category: ")
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
@@ -34,6 +35,7 @@ task :new_post, :title do |t, args|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "tags: [#{tags}]"
+    post.puts "category: #{cat}"
     post.puts "image:"
     post.puts "  feature: "
     post.puts "  credit: "
