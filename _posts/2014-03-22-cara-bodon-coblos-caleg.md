@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cara bodon coblos caleg"
+title: "Cara 'Bodon' Coblos Caleg"
 modified: 2014-03-22 13:20:52 +0700
 description: "cara bodon coblos caleg"
 tags: [politik,caleg,pemilu]
@@ -16,7 +16,7 @@ share: true
 ![pemilu 2014](http://krjogja.com/photos/05a3aca44b238ec0fbcab89e5e18b92f.jpg)
 Merasa aneh saya menuliskan artikel ini. Bukannya saya meremehkan para intelek rakyat Indonesia, tapi saya punya pikiran tersendiri bagaimana cara memilih caleg (calon legislatif) pada Pemilihan Umum 9 April nanti dengan cara **bodon**.
 
-Cukup simpel, *jangan pilih caleg yang melanggar peraturan pemilu*. Tipsnya seperti berikut:
+Cukup simpel, **jangan pilih caleg yang melanggar peraturan pemilu**. Tipsnya seperti berikut:
 
 * Jangan pilih caleg yang memasang APK (alat peraga kampanye) di tempat ibadah, tiang listrik, dan pohon.
 * Jangan pilih caleg yang menggunakan tempat ibadah sebagai tempat politik praktis alias kampanye. Misal, pengajian sambil bagi-bagi kalender/kartu nama yang gambarnya adalah seorang caleg.
