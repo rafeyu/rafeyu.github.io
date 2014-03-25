@@ -18,8 +18,8 @@ Menurut saya cukup membingungkan apabila dibandingkan dengan algoritma *forward 
 
 Kunci algoritma ini adalah pada premis dan konklusi, layaknya *forward chaining*, perbedaanya adalah algoritma *backward chaining* memeriksa konklusi (`THEN ..`) terlebih dahulu, yang kemudian dicari premisnya (`IF ..`). Dan tidak lupa, algoritma *backward chaining* menggunakan *stack* untuk penyimpanan memori sementara.
 
-## Contoh Kasus
-### Aturan/*rules* basis pengetahuannya
+# Contoh Kasus
+## Aturan/rules basis pengetahuannya
 
 | R1	: IF ( A AND B) THEN C  |
 |								|
@@ -45,11 +45,11 @@ Fakta awal yang diberikan adalah A & F, buktikan apakah K bernilai benar apabila
 
 ## Jawab
 
-#### Langkah 1
+## Langkah 1
 
-**Database**:
-
-A F
+|**Database**:|
+---------------
+|A F          |
 
 **Stack**:
 
@@ -57,7 +57,7 @@ K
 
 **Goal**: K (sebagai isi awal dari stack). J tidak ada di database, simpan di stack.
 
-#### Langkah 2
+## Langkah 2
 
 R1	: IF ( A AND B) THEN C
 
@@ -91,7 +91,7 @@ K J
 
 A ada di Database. I tidak ada di Database (simpan di stack).
 
-#### Langkah 3
+## Langkah 3
 
 R1	: IF ( A AND B) THEN C
 
@@ -125,7 +125,7 @@ K J I
 
 C tidak ada di database (simpan di stack). H tidak ada di database (simpan di stack).
 
-#### Langkah 4
+## Langkah 4
 
 R1	: IF ( A AND B) THEN C
 
@@ -159,7 +159,7 @@ K J I C H
 
 G tidak ada di database (simpan di stack). E tidak ada di database (simpan di stack).
 
-#### Langkah 5
+## Langkah 5
 
 R1	: IF ( A AND B) THEN C
 
@@ -193,7 +193,7 @@ K J I C H G E
 
 Aturan dengan konklusi E tidak ada (yang berarti gagal), maka kembali ke langkah ke 2 (namun kita akan memakai R9 dari pada R8).
 
-#### Langkah 6 (perulangan dari langkah 2)
+## Langkah 6 (perulangan dari langkah 2)
 
 R1	: IF ( A AND B) THEN C
 
@@ -227,7 +227,7 @@ K J
 
 G tidak ada di database (simpan di stack).
 
-#### Langkah 7
+## Langkah 7
 
 R1	: IF ( A AND B) THEN C
 
@@ -261,7 +261,7 @@ K J G
 
 A ada di database. G masukkan ke database.
 
-#### Langkah 8
+## Langkah 8
 
 R1	: IF ( A AND B) THEN C
 
@@ -295,7 +295,7 @@ K J
 
 G ada di database. J masukkan ke database.
 
-#### Langkah 9
+## Langkah 9
 
 R1	: IF ( A AND B) THEN C
 
@@ -329,7 +329,7 @@ K
 
 J ada di database. K masukkan ke database.
 
-#### Langkah 10
+## Langkah 10
 
 R1	: IF ( A AND B) THEN C
 
