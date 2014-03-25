@@ -66,11 +66,13 @@ Fakta awal yang diberikan adalah A dan F, buktikan apakah K bernilai benar apabi
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -96,11 +98,13 @@ A ada di Database. I tidak ada di Database (simpan di stack).
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -126,11 +130,13 @@ C tidak ada di database (simpan di stack). H tidak ada di database (simpan di st
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -156,11 +162,13 @@ G tidak ada di database (simpan di stack). E tidak ada di database (simpan di st
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -186,11 +194,13 @@ Aturan dengan konklusi E tidak ada (yang berarti gagal), maka kembali ke langkah
 <tr><td>R9	: IF  G THEN **J**</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -216,11 +226,13 @@ G tidak ada di database (simpan di stack).
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -246,11 +258,13 @@ A ada di database. G masukkan ke database.
 <tr><td>R9	: IF  G THEN **J**</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F G</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -276,11 +290,13 @@ G ada di database. J masukkan ke database.
 <tr><td><s>R9	: IF  G THEN J</s></td></tr>
 <tr><td>R10	: IF J THEN **K**</td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F G J</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
@@ -306,11 +322,13 @@ J ada di database. K masukkan ke database.
 <tr><td><s>R9	: IF  G THEN J</s></td></tr>
 <tr><td><s>R10	: IF J THEN K</s></td></tr></table>
 
+
 <table>
 	<tr><td>Database:</td>
 	<td>A F G J K</td>
 	</tr>
 </table>
+
 
 <table>
 	<tr><td>Stack:</td>
