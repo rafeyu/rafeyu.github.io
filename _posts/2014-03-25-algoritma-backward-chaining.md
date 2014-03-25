@@ -62,7 +62,7 @@ Fakta awal yang diberikan adalah A dan F, buktikan apakah K bernilai benar apabi
 <tr><td>R5	: IF (F AND G) THEN D</td></tr>
 <tr><td>R6	: IF (G AND E) THEN H</td></tr>
 <tr><td>R7	: IF (C AND H) THEN I</td></tr>
-<tr><td>R8	: IF (I AND A) THEN **J**</td></tr>
+<tr><td>R8	: IF (I AND A) THEN **J** </td></tr>
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
@@ -93,7 +93,7 @@ A ada di Database. I tidak ada di Database (simpan di stack).
 <tr><td>R4	: IF A THEN G</td></tr>
 <tr><td>R5	: IF (F AND G) THEN D</td></tr>
 <tr><td>R6	: IF (G AND E) THEN H</td></tr>
-<tr><td>R7	: IF (C AND H) THEN **I**</td></tr>
+<tr><td>R7	: IF (C AND H) THEN **I** </td></tr>
 <tr><td>R8	: IF (I AND A) THEN J</td></tr>
 <tr><td>R9	: IF  G THEN J</td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
@@ -124,7 +124,7 @@ C tidak ada di database (simpan di stack). H tidak ada di database (simpan di st
 <tr><td>R3	: IF (A AND E) THEN F</td></tr>
 <tr><td>R4	: IF A THEN G</td></tr>
 <tr><td>R5	: IF (F AND G) THEN D</td></tr>
-<tr><td>R6	: IF (G AND E) THEN **H**</td></tr>
+<tr><td>R6	: IF (G AND E) THEN **H** </td></tr>
 <tr><td>R7	: IF (C AND H) THEN I</td></tr>
 <tr><td>R8	: IF (I AND A) THEN J</td></tr>
 <tr><td>R9	: IF  G THEN J</td></tr>
@@ -191,7 +191,7 @@ Aturan dengan konklusi E tidak ada (yang berarti gagal), maka kembali ke langkah
 <tr><td>R6	: IF (G AND E) THEN H</td></tr>
 <tr><td>R7	: IF (C AND H) THEN I</td></tr>
 <tr><td>R8	: IF (I AND A) THEN J</td></tr>
-<tr><td>R9	: IF  G THEN **J**</td></tr>
+<tr><td>R9	: IF  G THEN **J** </td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
 
@@ -218,7 +218,7 @@ G tidak ada di database (simpan di stack).
 <tr><td>R1	: IF ( A AND B) THEN C</td></tr>
 <tr><td>R2	: IF C THEN D</td></tr>
 <tr><td>R3	: IF (A AND E) THEN F</td></tr>
-<tr><td>R4	: IF A THEN **G**</td></tr>
+<tr><td>R4	: IF A THEN **G** </td></tr>
 <tr><td>R5	: IF (F AND G) THEN D</td></tr>
 <tr><td>R6	: IF (G AND E) THEN H</td></tr>
 <tr><td>R7	: IF (C AND H) THEN I</td></tr>
@@ -255,7 +255,7 @@ A ada di database. G masukkan ke database.
 <tr><td>R6	: IF (G AND E) THEN H</td></tr>
 <tr><td>R7	: IF (C AND H) THEN I</td></tr>
 <tr><td>R8	: IF (I AND A) THEN J</td></tr>
-<tr><td>R9	: IF  G THEN **J**</td></tr>
+<tr><td>R9	: IF  G THEN **J** </td></tr>
 <tr><td>R10	: IF J THEN K</td></tr></table>
 
 
@@ -288,7 +288,7 @@ G ada di database. J masukkan ke database.
 <tr><td>R7	: IF (C AND H) THEN I</td></tr>
 <tr><td>R8	: IF (I AND A) THEN J</td></tr>
 <tr><td><s>R9	: IF  G THEN J</s></td></tr>
-<tr><td>R10	: IF J THEN **K**</td></tr></table>
+<tr><td>R10	: IF J THEN **K** </td></tr></table>
 
 
 <table>
