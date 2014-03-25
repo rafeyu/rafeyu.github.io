@@ -21,44 +21,39 @@ Kunci algoritma ini adalah pada premis dan konklusi, layaknya *forward chaining*
 # Contoh Kasus
 ## Aturan/rules basis pengetahuannya
 
-| R1	: IF ( A AND B) THEN C  |
-|								|
-| R2	: IF C THEN D           |
-|								|
-| R3	: IF (A AND E) THEN F   |
-|								|
-| R4	: IF A THEN G           |
-|								|
-| R5	: IF (F AND G) THEN D   |
-|								|
-| R6	: IF (G AND E) THEN H   |
-|								|
-| R7	: IF (C AND H) THEN I   |
-|								|
-| R8	: IF (I AND A) THEN J   |
-|								|
-| R9	: IF  G THEN J          |
-|								|
-| R10	: IF J THEN K           |
+<table>
+<tr>R1	: IF ( A AND B) THEN C</tr>
+<tr>R2	: IF C THEN D</tr>
+<tr>R3	: IF (A AND E) THEN F</tr>
+<tr>R4	: IF A THEN G</tr>
+<tr>R5	: IF (F AND G) THEN D</tr>
+<tr>R6	: IF (G AND E) THEN H</tr>
+<tr>R7	: IF (C AND H) THEN I</tr>
+<tr>R8	: IF (I AND A) THEN J</tr>
+<tr>R9	: IF  G THEN J</tr>
+<tr>R10	: IF J THEN K</tr></table>
 
-Fakta awal yang diberikan adalah A & F, buktikan apakah K bernilai benar apabila proses inferensi dilakukan dengan cara *backward chaining*?
+Fakta awal yang diberikan adalah A dan F, buktikan apakah K bernilai benar apabila proses inferensi dilakukan dengan cara *backward chaining*?
 
 ## Jawab
 
 ## Langkah 1
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-|**Database**:|
----------------
-|A F          |
-
-**Stack**:
-
-K
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K</td>
+	</tr>
+</table>
 
 **Goal**: K (sebagai isi awal dari stack). J tidak ada di database, simpan di stack.
 
 ## Langkah 2
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
@@ -77,22 +72,26 @@ R8	: IF (I AND A) THEN **J**
 
 R9	: IF  G THEN J
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-A F
-
-**Stack**:
-
-K J
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J</td>
+	</tr>
+</table>
 
 **Sub goal**: J
 
 A ada di Database. I tidak ada di Database (simpan di stack).
 
 ## Langkah 3
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
@@ -111,22 +110,26 @@ R8	: IF (I AND A) THEN J
 
 R9	: IF  G THEN J
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-A F
-
-**Stack**:
-
-K J I
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J I</td>
+	</tr>
+</table>
 
 **Sub goal**: I
 
 C tidak ada di database (simpan di stack). H tidak ada di database (simpan di stack).
 
 ## Langkah 4
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
@@ -145,22 +148,26 @@ R8	: IF (I AND A) THEN J
 
 R9	: IF  G THEN J
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-A F
-
-**Stack**:
-
-K J I C H
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J I C H</td>
+	</tr>
+</table>
 
 **Sub goal**: H
 
 G tidak ada di database (simpan di stack). E tidak ada di database (simpan di stack).
 
 ## Langkah 5
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
@@ -179,22 +186,26 @@ R8	: IF (I AND A) THEN J
 
 R9	: IF  G THEN J
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-A F
-
-**Stack**:
-
-K J I C H G E
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J I C H G E</td>
+	</tr>
+</table>
 
 **Sub goal**: E
 
 Aturan dengan konklusi E tidak ada (yang berarti gagal), maka kembali ke langkah ke 2 (namun kita akan memakai R9 dari pada R8).
 
 ## Langkah 6 (perulangan dari langkah 2)
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
@@ -213,22 +224,26 @@ R8	: IF (I AND A) THEN J
 
 R9	: IF  G THEN **J**
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-A F
-
-**Stack**:
-
-K J
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J</td>
+	</tr>
+</table>
 
 **Sub goal**: J
 
 G tidak ada di database (simpan di stack).
 
 ## Langkah 7
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
@@ -247,29 +262,33 @@ R8	: IF (I AND A) THEN J
 
 R9	: IF  G THEN J
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F</td>
+	</tr>
+</table>
 
-A F
-
-**Stack**:
-
-K J G
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J G</td>
+	</tr>
+</table>
 
 **Sub goal**: G
 
 A ada di database. G masukkan ke database.
 
 ## Langkah 8
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
 
 R3	: IF (A AND E) THEN F
 
-~~R4	: IF A THEN G~~
+<s>R4	: IF A THEN G</s>
 
 R5	: IF (F AND G) THEN D
 
@@ -281,29 +300,33 @@ R8	: IF (I AND A) THEN J
 
 R9	: IF  G THEN **J**
 
-R10	: IF J THEN K
+R10	: IF J THEN K</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F G</td>
+	</tr>
+</table>
 
-A F G
-
-**Stack**:
-
-K J
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K J</td>
+	</tr>
+</table>
 
 **Sub goal**: J
 
 G ada di database. J masukkan ke database.
 
 ## Langkah 9
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
 
 R3	: IF (A AND E) THEN F
 
-~~R4	: IF A THEN G~~
+<s>R4	: IF A THEN G</s>
 
 R5	: IF (F AND G) THEN D
 
@@ -313,31 +336,35 @@ R7	: IF (C AND H) THEN I
 
 R8	: IF (I AND A) THEN J
 
-~~R9	: IF  G THEN J~~
+<s>R9	: IF  G THEN J</s>
 
-R10	: IF J THEN **K**
+R10	: IF J THEN **K**</table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F G J</td>
+	</tr>
+</table>
 
-A F G J
-
-**Stack**:
-
-K
+<table>
+	<tr><td>**Stack**:</td>
+		<td>K</td>
+	</tr>
+</table>
 
 **Sub goal**: K
 
 J ada di database. K masukkan ke database.
 
 ## Langkah 10
-
+<table>
 R1	: IF ( A AND B) THEN C
 
 R2	: IF C THEN D
 
 R3	: IF (A AND E) THEN F
 
-~~R4	: IF A THEN G~~
+<s>R4	: IF A THEN G</s>
 
 R5	: IF (F AND G) THEN D
 
@@ -347,16 +374,20 @@ R7	: IF (C AND H) THEN I
 
 R8	: IF (I AND A) THEN J
 
-~~R9	: IF  G THEN J~~
+<s>R9	: IF  G THEN J</s>
 
-~~R10	: IF J THEN K~~
+<s>R10	: IF J THEN K</s></table>
 
-**Database**:
+<table>
+	<tr><td>**Database**:</td>
+	<td>A F G J K</td>
+	</tr>
+</table>
 
-A F G J K
-
-**Stack**:
-
-(kosong)
+<table>
+	<tr><td>**Stack**:</td>
+		<td>(kosong)</td>
+	</tr>
+</table>
 
 Karena Goal K ditemukan di database, maka proses pencarian dihentikan. Disini terbukti bahwa K bernilai benar
