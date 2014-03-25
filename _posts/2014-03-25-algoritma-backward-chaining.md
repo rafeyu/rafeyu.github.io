@@ -22,16 +22,16 @@ Kunci algoritma ini adalah pada premis dan konklusi, layaknya *forward chaining*
 ## Aturan/rules basis pengetahuannya
 
 <table>
-<tr>R1	: IF ( A AND B) THEN C</tr>
-<tr>R2	: IF C THEN D</tr>
-<tr>R3	: IF (A AND E) THEN F</tr>
-<tr>R4	: IF A THEN G</tr>
-<tr>R5	: IF (F AND G) THEN D</tr>
-<tr>R6	: IF (G AND E) THEN H</tr>
-<tr>R7	: IF (C AND H) THEN I</tr>
-<tr>R8	: IF (I AND A) THEN J</tr>
-<tr>R9	: IF  G THEN J</tr>
-<tr>R10	: IF J THEN K</tr></table>
+<tr><td>R1	: IF ( A AND B) THEN C</td></tr>
+<tr><td>R2	: IF C THEN D</td></tr>
+<tr><td>R3	: IF (A AND E) THEN F</td></tr>
+<tr><td>R4	: IF A THEN G</td></tr>
+<tr><td>R5	: IF (F AND G) THEN D</td></tr>
+<tr><td>R6	: IF (G AND E) THEN H</td></tr>
+<tr><td>R7	: IF (C AND H) THEN I</td></tr>
+<tr><td>R8	: IF (I AND A) THEN J</td></tr>
+<tr><td>R9	: IF  G THEN J</td></tr>
+<tr><td>R10	: IF J THEN K</td></tr></table>
 
 Fakta awal yang diberikan adalah A dan F, buktikan apakah K bernilai benar apabila proses inferensi dilakukan dengan cara *backward chaining*?
 
