@@ -27,7 +27,7 @@ background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
-google_verify:      
+google_verify:  "0CeVLOhFLUsGm-vu9nja80D-on8KytvxI9T4QIykjv4
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
