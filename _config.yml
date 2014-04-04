@@ -27,9 +27,9 @@ background:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
-google_verify:    0CeVLOhFLUsGm-vu9nja80D-on8KytvxI9T4QIykjv4
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:  9700FA152E8940B78FD227F4A2257604
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
