@@ -90,6 +90,10 @@ prose:
               value: "post"
             - name: "Page"
               value: "page"
+      - name: "title"
+        field:
+          element: "hidden"
+          value: ""
       - name: "category"
         field:
           element: "multiselect"
