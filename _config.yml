@@ -134,11 +134,11 @@ prose:
       #   field:
       #     element: "text"
       #     label: "Posting Time!"
-      #     value: '2014-12-31 24:59:59 +0700'
+      #     value: '2014-12-31 24:59'
       #     type: "text"
-      # - name: "title"
-      #   field:
-      #     element: "text"
-      #     label: "Add Title"
-      #     value: ""
-      #     type: "text"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Add Title"
+          value: ""
+          type: "text"
