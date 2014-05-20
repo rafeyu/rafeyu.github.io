@@ -82,7 +82,7 @@ prose:
     _posts:
       - name: "layout"
         field:
-          element: "hidden"
+          element: "multiselect"
           label: "Add layout"
           placeholder: "Choose layout"
           options:
