@@ -130,7 +130,7 @@ prose:
         field:
           element: "text"
           label: "Posting Time!"
-          value: Y-M-D hh:mm:ss +0700
+          value: 2014-12-31 24:59:59 +0700
       # - name: "image"
       #     - name: "feature"
       #       field:
