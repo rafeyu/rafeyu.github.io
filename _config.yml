@@ -95,6 +95,7 @@ prose:
           element: "text"
           label: "Add Title"
           value: ""
+          type: "text"
       - name: "category"
         field:
           element: "multiselect"
@@ -116,22 +117,26 @@ prose:
           element: "text"
           label: "Comments"
           value: 'true'
+          type: "text"
       - name: "share"
         field:
           element: "text"
           label: "Share Button"
           value: 'true'
+          type: "text"
       - name: "description"
         field:
           element: "text"
           label: "Description"
           placeholder: "description here"
           value: ""
+          type: "text"
       - name: "date"
         field:
           element: "text"
           label: "Posting Time!"
           value: '2014-12-31 24:59:59 +0700'
+          type: "text"
       # - name: "image"
       #     - name: "feature"
       #       field:
