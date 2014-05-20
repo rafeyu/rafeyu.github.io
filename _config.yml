@@ -90,10 +90,10 @@ prose:
               value: "post"
             - name: "Page"
               value: "page"
-      - name: "title"
-        field:
-          element: "hidden"
-          value: ""
+      # - name: "title"
+      #   field:
+      #     element: "hidden"
+      #     value: ""
       - name: "category"
         field:
           element: "multiselect"
@@ -126,11 +126,11 @@ prose:
           label: "Description"
           placeholder: "description here"
           value: ""
-      # - name: "date"
-      #   field:
-      #     element: "text"
-      #     label: "Posting Time!"
-      #     value: '2014-12-31 24:59:59 +0700'
+      - name: "date"
+        field:
+          element: "text"
+          label: "Posting Time!"
+          value: '2014-12-31 24:59:59 +0700'
       # - name: "image"
       #     - name: "feature"
       #       field:
