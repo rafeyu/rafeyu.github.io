@@ -83,7 +83,13 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "post"
+          label: "Add layout"
+          placeholder: "Choose layout"
+          options:
+            - name: "Post"
+              value: "post"
+            - name: "Page"
+              value: "page"
       - name: "category"
         field:
           element: "multiselect"
@@ -103,20 +109,40 @@ prose:
       - name: "comments"
         field:
           element: "text"
+          label: "Comments"
           value: "true"
       - name: "share"
         field:
           element: "text"
+          label: "Share Button"
           value: "true"
       - name: "description"
         field:
           element: "text"
-          value: ""
-      - name: "title"
-        field:
-          element: "text"
+          label: "Description"
+          placeholder: "description here"
           value: ""
       - name: "modified"
         field:
           element: "text"
+          label: "Posting Time!"
           value: "Y-M-D hh:mm:ss +0700"
+      - name: "image"
+          - name: "feature"
+            field:
+              element: "text"
+              label: "Feature image link"
+              placeholder: "http://"
+              value: ""
+          - name: "credit"
+            field:
+              element: "text"
+              label: "Feature image credit"
+              placeholder: "Type credit name here"
+              value: ""
+          - name: "creditlink"
+            field:
+              element: "text"
+              label: "Credit link"
+              placeholder: "http://"
+              value: ""
