@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Siap Update Manjaro Pack 6
 layout: post
 comments: "true"
