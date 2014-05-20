@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: ""
 description: "Basa-basi sebelum update Manjaro"
 layout: post
