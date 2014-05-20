@@ -126,7 +126,7 @@ prose:
           label: "Description"
           placeholder: "description here"
           value: ""
-      - name: "modified"
+      - name: "date"
         field:
           element: "text"
           label: "Posting Time!"
