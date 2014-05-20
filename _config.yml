@@ -98,23 +98,25 @@ prose:
               value: "kuliah"
             - name: "Coding"
               value: "coding"
+            - name: "Linux"
+              value: "linux"
       - name: "comments"
         field:
-          element: "hidden"
+          # element: "hidden"
           value: "true"
       - name: "share"
         field:
-          element: "hidden"
+          # element: "hidden"
           value: "true"
       - name: "description"
         field:
-          element: "hidden"
+          # element: "hidden"
           value: ""
       - name: "title"
         field:
-          element: "hidden"
+          # element: "hidden"
           value: ""
       - name: "modified"
         field:
-          element: "hidden"
+          # element: "hidden"
           value: "Y-M-D hh:mm:ss +0700"
