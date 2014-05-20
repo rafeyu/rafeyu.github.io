@@ -95,12 +95,6 @@ prose:
           label: "published"
           element: "checkbox"
           value: 'true'
-      - name: "title"
-        field:
-          element: "text"
-          label: "Add Title"
-          value: ""
-          type: "text"
       - name: "category"
         field:
           element: "multiselect"
@@ -142,22 +136,9 @@ prose:
           label: "Posting Time!"
           value: '2014-12-31 24:59:59 +0700'
           type: "text"
-      # - name: "image"
-      #     - name: "feature"
-      #       field:
-      #         element: "text"
-      #         label: "Feature image link"
-      #         placeholder: "http://"
-      #         value: ""
-      #     - name: "credit"
-      #       field:
-      #         element: "text"
-      #         label: "Feature image credit"
-      #         placeholder: "Type credit name here"
-      #         value: ""
-      #     - name: "creditlink"
-      #       field:
-      #         element: "text"
-      #         label: "Credit link"
-      #         placeholder: "http://"
-      #         value: ""
+      - name: "title"
+        field:
+          element: "text"
+          label: "Add Title"
+          value: ""
+          type: "text"
