@@ -114,12 +114,12 @@ prose:
         field:
           element: "text"
           label: "Comments"
-          value: true
+          value: 'true'
       - name: "share"
         field:
           element: "text"
           label: "Share Button"
-          value: true
+          value: 'true'
       - name: "description"
         field:
           element: "text"
@@ -130,7 +130,7 @@ prose:
         field:
           element: "text"
           label: "Posting Time!"
-          value: 2014-12-31 24:59:59 +0700
+          value: '2014-12-31 24:59:59 +0700'
       # - name: "image"
       #     - name: "feature"
       #       field:
