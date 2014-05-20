@@ -94,7 +94,7 @@ prose:
         field:
           label: "published"
           element: "checkbox"
-          value: "true"
+          value: 'true'
       - name: "title"
         field:
           element: "text"
