@@ -130,12 +130,12 @@ prose:
           placeholder: "description here"
           value: ""
           type: "text"
-      - name: "date"
-        field:
-          element: "text"
-          label: "Posting Time!"
-          value: '2014-12-31 24:59:59 +0700'
-          type: "text"
+      # - name: "date"
+      #   field:
+      #     element: "text"
+      #     label: "Posting Time!"
+      #     value: '2014-12-31 24:59:59 +0700'
+      #     type: "text"
       # - name: "title"
       #   field:
       #     element: "text"
