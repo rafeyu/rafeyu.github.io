@@ -4,9 +4,12 @@ title: "Mengapa Saya Pakai Linux?"
 layout: post
 comments: "true"
 share: "true"
-category: 
-  - linux
+category: linux
 description: saya menggunakan linux
+image:
+  feature: linux-tux.jpg
+  credit: 
+  creditlink: 
 ---
 
 Pertanyaan ini pernah ditanyakan oleh teman yang selalu saya jawab dengan kata "nyaman". Kata "nyaman" memiliki banyak arti bagi saya.
