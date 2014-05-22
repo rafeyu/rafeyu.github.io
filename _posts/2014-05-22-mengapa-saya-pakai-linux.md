@@ -1,6 +1,6 @@
 ---
 published: true
-title: ""
+title: "Mengapa Saya Pakai Linux?"
 layout: post
 comments: "true"
 share: "true"
