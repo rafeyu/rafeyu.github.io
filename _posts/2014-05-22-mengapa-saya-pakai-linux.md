@@ -4,12 +4,13 @@ title: "Mengapa Saya Pakai Linux?"
 layout: post
 comments: "true"
 share: "true"
-category: linux
+category: 
+  - linux
 description: saya menggunakan linux
-image:
-  feature: linux-tux.jpg
-  credit: 
-  creditlink: 
+image: 
+  feature: "linux-tux.jpg"
+  credit: null
+  creditlink: null
 ---
 
 Pertanyaan ini pernah ditanyakan oleh teman yang selalu saya jawab dengan kata "nyaman". Kata "nyaman" memiliki banyak arti bagi saya.
@@ -51,6 +52,9 @@ Konyolnya banyak orang menginstal anti-virus premium menggunakan *crack*. Terus,
 ## Bukan gamer
 
 Ya, saya bukan gamer. Saya tidak terlalu menggebu-nggebu main game. Tapi kalau untuk game-game tertentu, saya oke :3
+
+![steam-site.png](/images/steam-site.png)
+
 
 Toh, saya optimis. Para pengembang game dan distributornya lambat laun akan melirik Linux sebagai platformnya. Contohnya saja Steam, sebuah distributor game milik Valve, yang sudah mendukung Linux. Bahkan beberapa game pun juga mampu dijalankan dengan [Wine][wine], seperti DOTA.
 
