@@ -1,6 +1,6 @@
 ---
 published: true
-title: ""
+title: Setelah Update Pack 6 Manjaro
 layout: post
 comments: "true"
 share: "true"
