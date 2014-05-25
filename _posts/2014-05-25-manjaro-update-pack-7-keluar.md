@@ -1,6 +1,6 @@
 ---
 published: true
-title: ""
+title: "Manjaro Update Pack 7 Keluar!"
 layout: post
 comments: "true"
 share: "true"
