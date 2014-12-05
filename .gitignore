@@ -1,2 +1,5 @@
 _site
 Rakefile.rb
+*.~
+*.swp*
+*.swp
