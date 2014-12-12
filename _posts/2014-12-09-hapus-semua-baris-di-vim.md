@@ -2,7 +2,6 @@
 published: true
 layout: post
 title: "Hapus Semua Baris di Vim"
-modified: 2014-12-09 23:44:31 +0700
 tags: [vim,editor]
 category: linux
 image:
