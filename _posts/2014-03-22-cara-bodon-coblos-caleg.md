@@ -10,6 +10,7 @@ image:
   credit: 
   creditlink: 
 comments: true
+redirect_from: "/2014/03/cara-bodon-coblos-caleg/"
 share: true
 ---
 
