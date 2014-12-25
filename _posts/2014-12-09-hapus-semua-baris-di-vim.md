@@ -9,6 +9,7 @@ image:
   credit: 
   creditlink: 
 comments: true
+redirect_from: "/2014/12/hapus-semua-baris-di-vim/"
 share: true
 ---
 

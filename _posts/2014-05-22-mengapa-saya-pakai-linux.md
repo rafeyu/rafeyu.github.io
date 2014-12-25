@@ -7,6 +7,7 @@ share: "true"
 category: 
   - linux
 description: saya menggunakan linux
+redirect_from: "/2014/05/mengapa-saya-pakai-linux/"
 image: 
   feature: "linux-tux.jpg"
   credit: null

@@ -7,6 +7,7 @@ share: "true"
 category: 
   - linux
 description: Manjaro Update Pack 7
+redirect_from: "/2014/05/manjaro-update-pack-7-keluar/"
 tags: 
   - manjaro
 ---

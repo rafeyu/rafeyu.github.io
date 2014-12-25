@@ -9,6 +9,7 @@ image:
   credit: 
   creditlink: 
 comments: true
+redirect_from: "/2014/04/pesan-warning-path-is-not-properly-set-up-di-rvm/"
 share: true
 ---
 

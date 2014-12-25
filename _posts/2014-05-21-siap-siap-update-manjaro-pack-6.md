@@ -9,6 +9,7 @@ image:
   credit: 
   creditlink: 
 comments: true
+redirect_from: "/2014/05/siap-siap-update-manjaro-pack-6/"
 share: true
 ---
 Sudah beberapa minggu lalu saya menggunakan [Manjaro][manjaro] sebagai sistem operasi utama yang saya gunakan sehari-hari.

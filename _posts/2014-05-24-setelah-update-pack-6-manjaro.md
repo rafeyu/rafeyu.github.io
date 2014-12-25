@@ -5,6 +5,7 @@ layout: post
 comments: "true"
 share: "true"
 description: "Ada poin-poin perbedaan setelah mengupdate Manjaro"
+redirect_from: "/2014/05/setelah-update-pack-6-manjaro/"
 category: 
   - linux
 ---

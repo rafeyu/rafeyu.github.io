@@ -9,6 +9,7 @@ image:
   credit: 
   creditlink: 
 comments: true
+redirect_from: "/2014/03/algoritma-backward-chaining/"
 share: true
 ---
 
