@@ -10,6 +10,7 @@ image:
   credit: 
   creditlink: 
 comments: true
+alias: [/akhirnya-pilih-jekyll]
 share: true
 ---
 Akhirnya setelah begitu lama mencari *platform ngeblog* untuk blog personal, akhirnya pilihan saya jatuh di [Jekyll](http://jekyllrb.com). Ya .. beberapa platform sudah saya coba seperti Blogspot, Wordpress, dan Roon. [Roon](http://ramdziana.roon.io) merupakan platform yang sempat saya pakai, namun tidak begitu lama. Karena Roon, saya mengenal Markdown sebagai alat *ngeblog*, terimakasih Roon :3
