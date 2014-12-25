@@ -3,3 +3,5 @@ Rakefile.rb
 *.~
 *.swp*
 *.swp
+*.un
+*.un*
