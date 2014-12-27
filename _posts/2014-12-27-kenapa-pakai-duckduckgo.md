@@ -30,9 +30,9 @@ Jika kamu tak yakin, *monggo* kunjungi halaman [history][his] pencarianmu di Goo
 
 ## Efek filter bubble
 
-Melalui [Techopedia][techobubble], *filter bubble* adalah keadaan di mana sebuah situs yang menampilkan hasil informasi sesuai dengan yang pengguna inginkan dan asumsikan. Melalui algoritma tertentu, segala informasi yang kamu dapatkan hampir selalu pas dengan apa yang kamu cari.
+Melalui [Techopedia][techobubble], *filter bubble* adalah keadaan di mana sebuah situs yang hanya menampilkan hasil informasi sesuai dengan keinginan dan asumsi pengguna. Melalui algoritma tertentu, informasi yang kamu dapat hanya sesuai dengan cookies, history browser, history pencarian, dan lokasi tempat kamu mengakses informasi. Kamu tak akan mendapatkan sudut pandang lain dari informasi yang kamu cari.
 
-Secara ringkas, *filter bubble* diterapkan oleh Google. Google melakukan [personalisasi][personalisasi] terhadap akunmu, sehingga hasil pencarianmu belum tentu sama dengan hasil pencarian teman-temanmu. Parahnya, Google memperlebar sistem personalisasi walaupun si pengguna sedang *log out*.
+Secara ringkas, *filter bubble* diterapkan oleh Google. Google melakukan [personalisasi][personalisasi] terhadap akunmu, sehingga hasil pencarianmu belum tentu sama dengan hasil pencarian teman-temanmu. Parahnya, Google memperlebar sistem personalisasi walaupun si pengguna sudah/sedang *log out*.
 
 Penjelasan mengenai ini juga sudah dituliskan oleh DDG melalui [dontbubble.us][bubble]
 
