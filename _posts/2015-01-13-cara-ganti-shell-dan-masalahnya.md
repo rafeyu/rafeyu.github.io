@@ -12,7 +12,7 @@ comments: true
 share: true
 ---
 
-![zshell](zsh.png)
+![zshell](/images/zsh.png)
 Mengganti default shell pada sebuah distro adalah hal yang sangat mudah. Yaitu dengan perintah `chsh`.
 
 Misalnya ketika kita akan mengganti `bash` dengan `zsh`.
