@@ -18,11 +18,11 @@ Pertanyaan ini pernah ditanyakan oleh teman yang selalu saya jawab dengan kata "
 
 ## Hidup CLI (Shell)!
 
-Saya hobi bermain dengan CLI (Command Line). Di Windows, CMD (Command Prompt) hanyalah sebatas tool kecil pelengkap sistem operasi besutan Bill Gates. CMD merupakan tool yang bisa dibilang seperti aplikasi yang tidak banyak berguna,  walaupun kemudian muncul Power Shell, saya tidak begitu tertarik. Bahkan ada pernyataan dari seseorang yang mengaku pernah berkontribusi di kernel Windows. Dia menyatakan bahwa beberapa [orang kontributor kernel ingin mengimprovisasi CMD][1], tapi mereka tidak bisa. Terlepas dari pengakuan itu, karena Windows awalnya memang dibangun dengan GUI, maka hampir semua perintah bisa dijalankan via GUI, tanpa CMD pun bisa.
+Saya hobi bermain dengan CLI (Command Line). Di Windows, CMD (Command Prompt) hanyalah sebatas tool kecil pelengkap sistem operasi besutan Bill Gates. CMD merupakan tool yang bisa dibilang seperti aplikasi yang tidak banyak berguna,  walaupun kemudian muncul Power Shell, saya tidak begitu tertarik. Di sisi lain, ada pernyataan dari seseorang yang mengaku pernah berkontribusi di kernel Windows. Dia menyatakan bahwa beberapa [orang kontributor kernel ingin mengimprovisasi CMD][1], tapi mereka tidak bisa/tidak diijinkan. Terlepas dari pengakuan itu, karena Windows awalnya memang dibangun dengan GUI, maka hampir semua perintah bisa dijalankan via GUI, tanpa CMD pun bisa.
 
 ![shell](/images/terminal.png)
 
-Berbeda dengan Linux, CLI sangat powerful. Bahkan ada pepatah yang mengatakan "*there is a shell, there is a way*". Di Linux, anda paling tidak harus mengerti beberapa perintah, seperti perintah `pacman` di Arch Linux dan turunannya. Seperti ketika saya ingin melakukan update di Manjaro, saat itu penggunaan `pamac` tidak direkomendasikan, yang direkomendasikan adalah `pacman`.
+Berbeda dengan Linux, CLI sangat powerful. Bahkan ada pepatah yang mengatakan "*there is a shell, there is a way*". Di Linux, anda paling tidak harus mengerti beberapa perintah, khususnya yang berhubungan dengan manajemen paket, seperti perintah `pacman` di Arch Linux dan turunannya, perintah `apt-get` di Debian dan turunannya, perintah `emerge` di Gentoo, dan lainnya.
 
 ## Open Source
 
@@ -57,11 +57,11 @@ Ya, saya bukan gamer. Saya tidak terlalu menggebu-nggebu main game. Tapi kalau u
 ![steam-site.png](/images/steam-site.png)
 
 
-Toh, saya optimis. Para pengembang game dan distributornya lambat laun akan melirik Linux sebagai platformnya. Contohnya saja Steam, sebuah distributor game milik Valve, yang sudah mendukung Linux. Bahkan beberapa game pun juga mampu dijalankan dengan [Wine][wine], seperti DOTA.
+Toh, saya optimis. Para pengembang game dan distributornya lambat laun akan melirik Linux sebagai platformnya. Contohnya saja Steam, sebuah distributor game milik Valve, yang sudah mendukung Linux. Bahkan beberapa game pun juga sudah dikembangkan *native* untuk Linux, seperti DOTA dan game lain yang mampu dijalankan dengan [Wine][wine].
 
 ## Kesimpulan
 
-Saya bukan fanboy Linux, tapi saya cinta Linux. Pengguna Linux lain pun pasti punya alasan berbeda-beda kenapa pakai Linux.
+Saya bukan *fanboy* Linux, tapi saya cinta Linux. Pengguna Linux lain pun pasti punya alasan berbeda-beda kenapa pakai Linux.
 
 Saya tidak anti Windows, karena saya menggunakan sistem operasi ini untuk bermain game :3
 
