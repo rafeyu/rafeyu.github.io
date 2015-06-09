@@ -22,7 +22,7 @@ Nah, kenapa saya jadikan Duckduckgo (DDG) sebagai mesin pencari default?
 
 DDG menghargai privasi saya. Ia tak mengumpulkan bahkan membagikan data pribadi saya sebagai pengguna.
 
-Alamat IP adalah salah satu data pribadi yang rentan terhadap pembajakan privasi, [DDG tidak akan menyimpan data ini][ip]. Selain itu data seperti user agent browser, history, dan data privasi lainnya juta tak ia kumpulkan.
+Alamat IP adalah salah satu data pribadi yang rentan terhadap pembajakan privasi, [DDG tidak akan menyimpan data ini][ip]. Selain itu data seperti user agent browser, history, dan data privasi lainnya juga tak ia kumpulkan.
 
 Google&mdash;layaknya mesin pencari pada umumnya&mdash;menyimpan data itu. Melalui situs [Donttrack.us][donttrack] DDG menjelaskan hal-hal penting bahwa situs-situs besar seperti Google memata-matai sang pengguna melalui data privasi yang dikumpulkan.
 
