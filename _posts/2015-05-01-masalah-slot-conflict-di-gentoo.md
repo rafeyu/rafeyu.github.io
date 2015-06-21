@@ -53,3 +53,5 @@ Untuk menyelesaikan konflik ini, saya hanya perlu meng-`emerge` ulang `openssh` 
 ```
 openssh (-bindist) -> openssl (-bindist) -> unbound (-bindist)
 ```
+
+Edit: Bukan CFLAGS tapi USE Flags
