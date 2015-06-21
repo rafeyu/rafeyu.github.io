@@ -12,9 +12,9 @@ comments: true
 share: true
 ---
 
-*Slot conflict* biasanya hadir ketika pengguna akan memasang paket yang mempunyai CFLAGS berlawanan dengan paket yang lain. 
+*Slot conflict* biasanya hadir ketika pengguna akan memasang paket yang mempunyai USE Flags berlawanan dengan paket yang lain. 
 
-Hal yang baru saja saya alami adalah ketika ingin memasang paket `unbound`. `Unbound` membutuhkan paket `openssl` dengan CFLAGS **tanpa** `bindist`, padahal `openssh` memerlukan `openssl` **dengan** `bindist`. Galat yang muncul akan seperti ini:
+Hal yang baru saja saya alami adalah ketika ingin memasang paket `unbound`. `Unbound` membutuhkan paket `openssl` dengan USE Flags**tanpa** `bindist`, padahal `openssh` memerlukan `openssl` **dengan** `bindist`. Galat yang muncul akan seperti ini:
 
     # emerge -av unbound
     
@@ -40,15 +40,15 @@ Hal yang baru saja saya alami adalah ketika ingin memasang paket `unbound`. `Unb
              >=dev-libs/openssl-0.9.6d:0[bindist=] required by
              (net-misc/openssh-6.7_p1:0/0::gentoo, installed)
 
-Sebenarnya, galat (*error*) muncul akibat paket `openssh` yang menggunakan CFLAGS `bindist`. Segala paket dengan CFLAGS `bindist` akan menjadi dependensi paket yang ber-CFLAGS `bindist` pula, dan sebaliknya. Dalam kasus ini:
+Sebenarnya, galat (*error*) muncul akibat paket `openssh` yang menggunakan USE Flags `bindist`. Segala paket dengan USE Flags `bindist` akan menjadi dependensi paket yang ber-USE Flags `bindist` pula, dan sebaliknya. Dalam kasus ini:
 
 ```
 openssh (bindist) -> openssl (bindist) -> unbound (-bindist)
 ```
 
-`openssl` akan selalu konflik dengan `unbound`, selama kebutuhan CFLAGS `bindist` berbeda (`unbound` tidak memerlukan `bindist`, `openssl` masih memakai `bindist`, `openssh` pakai `bindist`).
+`openssl` akan selalu konflik dengan `unbound`, selama kebutuhan USE Flags `bindist` berbeda (`unbound` tidak memerlukan `bindist`, `openssl` masih memakai `bindist`, `openssh` pakai `bindist`).
 
-Untuk menyelesaikan konflik ini, saya hanya perlu meng-`emerge` ulang `openssh` dan `openssl` tanpa CFLAGS `bindist`.
+Untuk menyelesaikan konflik ini, saya hanya perlu meng-`emerge` ulang `openssh` dan `openssl` tanpa USE Flags `bindist`.
 
 ```
 openssh (-bindist) -> openssl (-bindist) -> unbound (-bindist)
