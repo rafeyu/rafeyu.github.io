@@ -40,8 +40,8 @@ bing_verify:
 links:
   # - title: Theme Setup
   #   url: /theme-setup
-  - title: Teknologi
-    url: http://www.rafeyu.info
+  - title: Kabar Linux
+    url: http://kabarlinux.web.id
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
