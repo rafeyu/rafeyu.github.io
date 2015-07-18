@@ -17,13 +17,11 @@ Daftar laman yang sedang dan sudah diterjemahkan:
 
 ### Dalam Proses
 
-* [**Help:Translating/id**][ht0]. Kalimat dalam kotak kode belum diterjemahkan.
-
 * [**Handbook:Main_Page/id**][hm0]. Beberapa kata dalam tabel belum diterjemahkan.
 
 ### Selesai
 
-* ...
+* [**Help:Translating/id**][ht0]
 
 Daftar di atas akan terus diperbarui. Pembaca bisa terus melacak proses penerjemahan [wiki.gentoo.org][0] ke Bahasa Indonesia melalui laman ini.
 
