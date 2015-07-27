@@ -1,5 +1,5 @@
 title:            Ramdziana.My.Id
-description:      "Personal blog Ramdziana yang membahas tentang berbagai tulisan baik opini, tutorial, teknologi, dan pengalaman"
+description:      "Blog pribadi Ramdziana yang membahas beragam isu berupa berita, opini, dan tutorial"
 disqus_shortname: ramdzianamyid
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://ramdziana.my.id
@@ -8,13 +8,13 @@ url:              http://ramdziana.my.id
 owner:
   name:           Ramdziana Feri Yustitianto
   avatar:         avatar.jpg
-  bio:            "Seorang mahasiswa, blogger, IT addict, dan code lover"
+  bio:            "Seorang blogger dan penggemar Linux / open-source"
   email:          ramdziana@protonmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        ramdziana
   facebook:
   github:         rafeyu
-  stackexchange:  http://stackexchange.com/users/3527285/rafeyu
+  stackexchange:
   linkedin:
   instagram:
   flickr:
