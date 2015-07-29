@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Anak Kecil dengan Kata-Kata Menakutkan"
-modified: 2015-07-28 22:39:49 +0700
+modified: 2015-07-28 22:39+07:00
 tags: [anak,hidup]
 category: cuap
 image:
