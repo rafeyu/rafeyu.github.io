@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Ruby Strange Problem I Found"
-modified: 2015-05-26 15:19:23 +0700
+modified: 2015-05-26 15:19+07:00
 tags: [ruby,problem]
 category: ruby
 image:
-  feature: 
-  credit: 
-  creditlink: 
+  feature:
+  credit:
+  creditlink:
 comments: true
 share: true
 ---
