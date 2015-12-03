@@ -55,3 +55,9 @@ Yah, begitulah acara *mantai* di pantai Greweng hari Minggu lalu.
 Cerita ini akan di*update* bila dirasa ada yang kurang detail. Nama ketiga teman perempuan tidak saya tulis demi menjaga privasi. Nama akan ditulis *by request* oleh ybs.
 
 Oh iya, saya juga merekam perjalanan pulang melalui jalan setapak (sedang diunggah). Sayang, ponsel saya keburu *low batt* sebelum kami menyentuh tempat parkir mobil.
+
+**Update**:
+
+Ini dia video jalan-jalan kemarin, dari *rembug* via WA sampai foto-foto di pantai. Karyanya M&#42;&#42;&#42;&#42;&#42;! (masih ingatkan? nama *teteh*-*teteh* di sini saya sensor semua :D)
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/I-h2T3KFV0k" frameborder="0" allowfullscreen></iframe>
