@@ -11,7 +11,7 @@ image:
 comments: true
 share: true
 ---
-Menyimpan file yang sangat banyak menjadi merepotkan apabila kita tidak me-*memanage* nya dengan baik.
+Menyimpan file yang sangat banyak menjadi merepotkan apabila kita tidak me-*manage* nya dengan baik.
 
 Ada dua metode manajemen file yang saya pakai,
 
@@ -47,12 +47,12 @@ Contoh (di Windows ganti `rm` dengan `del`, abaikan `$`):
 
 Untuk menghapus semua file yang berhubungan dengan pramuka.
 
-$ rm *-pmk.*
+    $ rm *-pmk.*
 
 Untuk menghapus file gambar yang behubungan dengan pramuka.
 
-$ rm *-pmk.jpg
-$ rm *-pmk.png
+    $ rm *-pmk.jpg
+    $ rm *-pmk.png
 
 &nbsp;
 &nbsp;
