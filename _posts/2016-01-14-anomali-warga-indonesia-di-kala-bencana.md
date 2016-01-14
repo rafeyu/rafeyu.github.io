@@ -5,7 +5,7 @@ modified: 2016-01-14 17:16++07:00
 tags: [sarinah,bencana,musibah]
 category: cuap
 image:
-  feature: http://rmdzn.kilatstorage.com/image/pray-for-jakarta-rfy.png
+  feature: abstract-11.jpg
   credit: 
   creditlink: 
 comments: true
