@@ -23,7 +23,7 @@ Saya tadi melihat berita di Net TV, saat itu reporter sedang mewancarai seorang 
 
 Gila! Dikira ini film?? Disempat-sempatin nonton kejadian mencekam seperti ini bahkan merasa para aparat/petugas memiliki kekuatan yang mampu memberhentikan ledakan bom dan tembakan pistol.
 
-Saya tidak mengajarkan untuk panik; lari-lari berbarengan sambil teriak-teriak "bom bom!", bukan itu. Saya ingin mengajak Anda untuk pergi dari situasi buruk seperti itu. Biarlah para petugas (Polisi - TNI), medis, dan wartawan yang ada di situ. Anda sipil? Pergilah! Kalau sempat menolong beberapa korban, lakukan sebisanya. Ingin memfoto dan merekam? Lakukan di jarak yang sangat jauh.
+Saya tidak mengajarkan untuk panik; lari-lari berbarengan sambil teriak-teriak "bom bom!", bukan itu. Saya ingin mengajak Anda untuk pergi dari situasi buruk seperti itu. Biarlah para petugas (Polisi - TNI), medis, dan wartawan yang ada di situ. Anda sipil? Pergilah! Kalau sempat menolong beberapa korban, lakukan sebisanya. Ingin memfoto dan merekam? Lakukan dari jarak yang sangat jauh.
 
 ## Anomali 2
 
@@ -53,4 +53,4 @@ Cukup, hentikan. Hentikan anomali konyol ini sekarang juga. Jangan seperti air y
 
 Dan sebagai penegas saya ulangi. Anomali 1 dan Anomali 2 sama sekali tidak mengajarkan panik, tapi waspada dan siaga. Sayangi nyawa Anda. Kata orang populer, "*stay safe*!".
 
-#PrayForJakarta
+\#PrayForJakarta
