@@ -26,8 +26,8 @@ owner:
 background:
 
 # Gems
-gems:
-  - jekyll-redirect-from
+# gems:
+#   - jekyll-redirect-from
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -47,7 +47,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Jakarta
 future:      true
-pygments:    true
+highlighter:    pygments
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
