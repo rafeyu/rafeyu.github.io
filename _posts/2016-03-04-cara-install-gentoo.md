@@ -395,7 +395,3 @@ Saatnya reboot dan masuk ke Gentoo Anda. Selamat!
 [3]: https://www.gentoo.org/downloads/
 [4]: http://gparted.sourceforge.net/
 [5]: http://kabarlinux.web.id/2015/cara-menggunakan-modem-usb-di-gentoo/
-
-# Gentoo?
-
-Ge¡
