@@ -33,9 +33,9 @@ Penjelasan lengkap mengenai sistem operasi ini bisa dibaca di [Wikipedia][1].
 
 Media instalasi adalah sebuah sebutan untuk media atau tempat menginstal Gentoo. Media atau tempat ini bukan berarti perangkat komputernya lho yaa.
 
-Media instalasi Gentoo bisa apa saja, dalam arti Anda tidak perlu menggunakan Live CD (Minimal Installation CD) Gentoo. Anda bisa mengunduh Live CD apapun.
+Media instalasi Gentoo bisa apa saja, dalam arti Anda tidak perlu menggunakan Live CD (Minimal Installation CD) Gentoo. Anda bisa mengunduh Live CD apapun. Bila Anda memakai Live CD Gentoo, Anda harus siap dengan pengaturan konfigurasi pra-instalasi dengan *full* CLI.
 
-Jika Anda *kebelet* ingin memakai distro berasa Gentoo, Anda bisa menggunakan [SystemRescueCd][2], distro Linux berbasis Gentoo, sebagai media instalasinya.
+Tapi jika Anda *kebelet* ingin memakai distro ber-desktop dengan rasa Gentoo, Anda bisa menggunakan [SystemRescueCd][2], distro Linux berbasis Gentoo, sebagai media instalasinya.
 
 Tidak seperti GNU/Linux berbasis GUI (Ubuntu, Fedora, openSUSE, dsb), instalasi Gentoo menggunakan fitur `chroot`, sehingga calon pengguna Gentoo perlu memakai Live CD (atau sistem operasi GNU/Linux yang sudah terinstal sebelumnya di perangkat yang sama) untuk menginstal distro berlogo "Magatama" ini.
 
