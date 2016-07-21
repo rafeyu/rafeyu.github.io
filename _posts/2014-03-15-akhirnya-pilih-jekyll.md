@@ -30,3 +30,7 @@ Keunggulan Jekyll menurut saya:
 * Fitur komentar menggunakan Disqus
 
 Dengan memanfaatkan Jekyll yang disandingkan dengan Github Pages, sepertinya saya akan betah *ngeblog* dengan platform ini.
+
+#### Intermezzo (jalankan Asciinema di Github pages)
+
+<script type="text/javascript" src="https://asciinema.org/a/1qtihby6wevpydk3x4gssce8q.js" id="asciicast-1qtihby6wevpydk3x4gssce8q" async></script>
