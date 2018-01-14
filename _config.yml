@@ -2,7 +2,7 @@ title:            Ramdziana.My.Id
 description:      "Blog pribadi Ramdziana yang membahas beragam isu berupa berita, opini, dan tutorial"
 disqus_shortname: ramdzianamyid
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://ramdziana.my.id
+url:              http://rafeyu.github.io
 
 # Owner/author information
 owner:
@@ -80,7 +80,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://ramdziana.my.id'
+  siteurl: 'http://rafeyu.github.io'
   media: 'images'
   ignore:
     - _config.yml
